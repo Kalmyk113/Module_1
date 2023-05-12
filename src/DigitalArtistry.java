@@ -21,7 +21,7 @@ public class DigitalArtistry extends GraphicsProgram {
         GRect rect = new GRect(w_side,h_side);
         rect.setFillColor(Color.red);
         rect.setFilled(true);
-        add(rect, (width/2)-(w_side/2), (height/2)-(h_side/2));
+        add(rect, (width/2)-(w_side/2), (height/2)-rad-(h_side*2/3));
 
 
         setBackground(Color.darkGray);
